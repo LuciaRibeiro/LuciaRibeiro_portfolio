@@ -75,6 +75,11 @@ a:hover { color: #00FCDD; }
   color: #00FCDD;
 }
 
+#main img:hover {
+    -moz-box-shadow: 1px 1px 30px #00FCDD;
+    -webkit-box-shadow: 1px 1px 30px #00FCDD;
+        box-shadow: 1px 1px 30px #00FCDD;
+}
 
 .images {position: relative;}
 
@@ -82,7 +87,267 @@ h1 {
 	font-size: 4em;
 }
 
-
 #footer {text-align: right;  width: 100%; position: fixed; bottom: 0;}
 
+.slide1,.slide2,.slide3,.slide4,.slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11, .slide12, .slide13 {
+  position: absolute;
+  width: 20%;
+}
+
+.slide1 {
+  background: no-repeat center;
+      background-size: cover;
+    animation:fade 30s infinite;
+-webkit-animation:fade 30s infinite;
+
+} 
+
+.slide2 {
+  background: no-repeat center;
+      background-size: cover;
+    animation:fade2 30s infinite;
+-webkit-animation:fade2 30s infinite;
+}
+
+.slide3 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade3 30s infinite;
+-webkit-animation:fade3 30s infinite;
+}
+
+.slide4 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade4 30s infinite;
+-webkit-animation:fade4 30s infinite;
+}
+
+.slide5 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade5 30s infinite;
+-webkit-animation:fade5 30s infinite;
+}
+
+.slide6 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade6 30s infinite;
+-webkit-animation:fade6 30s infinite;
+}
+
+.slide7 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade7 30s infinite;
+-webkit-animation:fade7 30s infinite;
+}
+
+.slide8 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade8 30s infinite;
+-webkit-animation:fade8 30s infinite;
+}
+
+.slide9 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade9 30s infinite;
+-webkit-animation:fade9 30s infinite;
+}
+
+.slide10 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade10 30s infinite;
+-webkit-animation:fade10 30s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  10% { opacity: 1}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 1}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade4
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 1}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade5
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 1}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade6
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 1}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade7
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 1}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade8
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 1}
+  80% { opacity: 0}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade9
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 1}
+  90% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade10
+{
+  0%   {opacity:0}
+  10% { opacity: 0}
+  20% { opacity: 0}
+  30% { opacity: 0}
+  40% { opacity: 0}
+  50% { opacity: 0}
+  60% { opacity: 0}
+  70% { opacity: 0}
+  80% { opacity: 0}
+  90% { opacity: 1}
+  100% { opacity: 0}
+}
+
+.slide11 {
+  background: no-repeat center;
+      background-size: cover;
+    animation:fade11 7s infinite;
+-webkit-animation:fade11 7s infinite;
+
+} 
+
+.slide12 {
+  background: no-repeat center;
+      background-size: cover;
+    animation:fade12 7s infinite;
+-webkit-animation:fade12 7s infinite;
+}
+
+.slide13 {
+    background: no-repeat center;
+      background-size: cover;
+    animation:fade13 7s infinite;
+-webkit-animation:fade13 7s infinite;
+}
+
+@keyframes fade11
+{
+  0%   {opacity:1}
+  33.333% {opacity:0}
+  66.666% {opacity:0}
+  100% { opacity: 1}
+}
+
+@keyframes fade12
+{
+  0%   {opacity:0}
+  33.333% {opacity:1}
+  66.666% {opacity:0}
+  100% { opacity: 0}
+}
+
+@keyframes fade13
+{
+  0%   {opacity:0}
+  33.333% {opacity:0}
+  66.666% {opacity:1}
+  100% { opacity: 0}
+}
 
