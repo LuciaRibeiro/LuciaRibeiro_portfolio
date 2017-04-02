@@ -62,8 +62,7 @@ h2 a:hover { color: #00FCDD; }
 h2 a { text-decoration: none;
 		color: #EDFC00;; }
 
-a:hover { color: #00FCDD; }
-
+a:hover { color: #00FCDD;}
 
 #menu a {
   text-decoration: none;
@@ -73,6 +72,7 @@ a:hover { color: #00FCDD; }
 
 #menu a:hover {
   color: #00FCDD;
+  background: #FF00FF;
 }
 
 #main img:hover {
@@ -82,6 +82,7 @@ a:hover { color: #00FCDD; }
 }
 
 .images {position: relative;}
+
 
 h1 {
 	font-size: 4em;
