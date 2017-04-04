@@ -74,7 +74,7 @@ a:hover { color: #00FCDD;}
   color: #00FCDD;
 }
 
-#main img:hover {
+.effet img:hover {
     -moz-box-shadow: 1px 1px 30px #00FCDD;
     -webkit-box-shadow: 1px 1px 30px #00FCDD;
         box-shadow: 1px 1px 30px #00FCDD;
@@ -82,13 +82,10 @@ a:hover { color: #00FCDD;}
 
 .container { width: 100%; clear: both; }
     .colonne {
-      height: 50%;
+      height: 500px;
       float: left;
     }
 
-    .quart {
-      width: 20%;
-    }
     .gauche {
       padding-left: 5%;
       padding-top: 5%;
@@ -97,25 +94,48 @@ a:hover { color: #00FCDD;}
     .milieu {
       padding-left: 5%;
       padding-top: 5%;
+      width: 20%;
     }
     .milieu2 {
       padding-top: 5%;
+      width: 20%;
     }
     .droite {
       padding-left: 5%;
       padding-top: 5%;
+      width: 20%;
     }
 
-    }
     .tiers .tiers1 {
-      width: 33.33%;
-      background-color: red;
+      width: 28.33%;
     }
+
+    .gauche3 {
+      padding-left: 5%;
+      padding-top: 5%;
+    }
+
+    .milieu3 {
+      padding-left: 10%;
+      padding-top: 11%;
+    }
+
+    .droite3 {
+      padding-left: 10%;
+      padding-top: 10%;
+    }
+
     .moitie {
-      width: 50%;
+      width: 45%;
+      padding-left: 5%;
     }
+
     .tiers2 {
-      width: 66.66%;
+      width: 46.66%;
+    }
+
+    .droite4{
+      padding-left: 20%;
     }
 
 h1 {
