@@ -80,8 +80,43 @@ a:hover { color: #00FCDD;}
         box-shadow: 1px 1px 30px #00FCDD;
 }
 
-.images {position: relative;}
+.container { width: 100%; clear: both; }
+    .colonne {
+      height: 50%;
+      float: left;
+    }
 
+    .quart {
+      width: 20%;
+    }
+    .gauche {
+      padding-left: 5%;
+      padding-top: 5%;
+    }
+
+    .milieu {
+      padding-left: 5%;
+      padding-top: 5%;
+    }
+    .milieu2 {
+      padding-top: 5%;
+    }
+    .droite {
+      padding-left: 5%;
+      padding-top: 5%;
+    }
+
+    }
+    .tiers .tiers1 {
+      width: 33.33%;
+      background-color: red;
+    }
+    .moitie {
+      width: 50%;
+    }
+    .tiers2 {
+      width: 66.66%;
+    }
 
 h1 {
 	font-size: 4em;
