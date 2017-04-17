@@ -46,21 +46,14 @@ html {
 	font-family: 'Changa', sans-serif;
 }
 
-div {
-	font-size: 1em;
-	}
 
-section a { font-size: 1.5em;
-	color: #EDFC00;
-	text-decoration: none;
-	 }
 
 h2 { font-size: 1.5em; }
 
 h2 a:hover { color: #00FCDD; }
 
 h2 a { text-decoration: none;
-		color: #EDFC00;; }
+		color: #EDFC00;}
 
 a:hover { color: #00FCDD;}
 
@@ -414,7 +407,6 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) {
-    /* For mobile phones: */
 
     .gauche {
       width: auto;
@@ -528,4 +520,32 @@ h1 {
     background-color: #ff8a23;
     }
 
+    .longue1 {
+      width: auto;
+    float: none;
+    height: 0px;
+    }
+
+    .lucia {
+      width: auto;
+    float: left;
+    padding: 2%;
+    height: auto;
+    background-color: #ff8a23;
+    }
+
+    .insta {
+      width: auto;
+    float: left;
+    padding: 2%;
+    height: auto;
+    background-color: #ff8a23;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    #menu {
+      height: auto;
+    }
 }
