@@ -522,14 +522,16 @@ h1 {
 
     .lucia {
       width: auto;
-    float: left;
+    float: none;
     padding: 2%;
     height: auto;
+    font-size: 2em;
+    text-align: center;
     }
 
     .insta {
       width: auto;
-    float: left;
+    float: none;
     padding: 2%;
     height: auto;
     }
@@ -539,6 +541,7 @@ h1 {
       height: auto;
       border: solid 1px #00FCDD;
     }
+
 }
 
 @media only screen and (max-width: 480px) {
