@@ -77,20 +77,20 @@ a:hover { color: #00FCDD;}
 
 .lucia { 
     width: 10%;
-    height: 50px;
+    height: 20px;
     float: left;
 }
 
 
 .insta { 
     width: 88%;
-    height: 50px;
+    height: 20px;
     float: left;
 }
 
 .longue1 {
       width: 2%;
-      height: 50px;
+      height: 20px;
       float: left;
     }
 
@@ -395,16 +395,6 @@ h1 {
   33.333% {opacity:0}
   66.666% {opacity:1}
   100% { opacity: 0}
-}
-
-
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: right;
 }
 
 @media only screen and (max-width: 800px) {
