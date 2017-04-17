@@ -413,75 +413,119 @@ h1 {
   text-align: right;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
     /* For mobile phones: */
-    .container {
-        width: 100%;
-        clear: both;
-        float: left;
-    }
-    
-    .longue {
-      height: 0px;
-    } 
-
-    .colonne {
-      width: 98%;
-      padding-left: 2%,
-    }
 
     .gauche {
-      width: 100%;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .milieu {
-      width: 100%;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .milieu2 {
-      width: 100%;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .droite {
-      width: 100%; 
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23; 
     }
 
     .gauche2 {
-      width: 100%;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .droite2 {
-      width: 100%; 
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .gauche3 {
-      width: 100%;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .milieu3 {
-      width: 100%;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .droite3 {
-      width: 100%; 
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23; 
     }
 
     .gauche4 {
-      height: 0px;
+      width: auto;
+    float: none;
+    height: 0px;
     }
 
     .milieu4 {
-      width: 100%;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #ff8a23;
     }
 
     .droite4 {
-      width: 100%; 
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    background-color: #ff8a23;
     }
 
     .entier {
-      width: 100%;
-      height: 20px;
-      text-align: right;
+      width: auto;
+    float: none;
+    padding: 2%;
+    height: auto;
+    background-color: #ff8a23;
     }
 
 }
