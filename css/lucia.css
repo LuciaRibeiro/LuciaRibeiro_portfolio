@@ -420,7 +420,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .milieu {
@@ -429,7 +428,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .milieu2 {
@@ -438,7 +436,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .droite {
@@ -447,7 +444,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23; 
     }
 
     .gauche2 {
@@ -456,7 +452,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .droite2 {
@@ -465,7 +460,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .gauche3 {
@@ -474,7 +468,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .milieu3 {
@@ -483,7 +476,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .droite3 {
@@ -492,7 +484,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23; 
     }
 
     .gauche4 {
@@ -507,7 +498,6 @@ h1 {
     padding: 2%;
     height: auto;
     margin-bottom: 2%;
-    background-color: #ff8a23;
     }
 
     .droite4 {
@@ -515,7 +505,6 @@ h1 {
     float: none;
     padding: 2%;
     height: auto;
-    background-color: #ff8a23;
     }
 
     .entier {
@@ -523,7 +512,6 @@ h1 {
     float: none;
     padding: 2%;
     height: auto;
-    background-color: #ff8a23;
     }
 
     .longue1 {
@@ -537,7 +525,6 @@ h1 {
     float: left;
     padding: 2%;
     height: auto;
-    background-color: #ff8a23;
     }
 
     .insta {
@@ -545,12 +532,12 @@ h1 {
     float: left;
     padding: 2%;
     height: auto;
-    background-color: #ff8a23;
     }
 
     img {
       width: 100%;
       height: auto;
+      border: solid 1px #00FCDD;
     }
 }
 
