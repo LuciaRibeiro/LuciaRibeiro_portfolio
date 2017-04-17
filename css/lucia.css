@@ -76,19 +76,14 @@ a:hover { color: #00FCDD;}
 }
 
 .lucia { 
-    width: 7%;
+    width: 10%;
     height: 50px;
     float: left;
 }
 
-.tulipe {
-    width: 8%;
-    height: 50px;
-    float: left;
-}
 
 .insta { 
-    width: 83%;
+    width: 88%;
     height: 50px;
     float: left;
 }
@@ -533,13 +528,6 @@ h1 {
     height: auto;
     font-size: 3em;
     text-align: center;
-    }
-
-    .tulipe {
-      width: auto;
-      float: none;
-      height: auto;
-      position: center;
     }
 
     .insta {
