@@ -70,6 +70,8 @@ a:hover { color: #00FCDD;}
   font-size: 1em;
 }
 
+#menu { width: 100%;  clear: both; }
+
 #menu a:hover {
   color: #00FCDD;
 }
@@ -80,69 +82,64 @@ a:hover { color: #00FCDD;}
         box-shadow: 1px 1px 30px #00FCDD;
 }
 
-.container { width: 100%; clear: both; }
-    .colonne {
-      height: 500px;
+.lucia { 
+    width: 10%;
+    height: 50px;
+    float: left;
+}
+
+.insta { 
+    width: 88%;
+    height: 50px;
+    float: left;
+}
+
+.longue1 {
+      width: 2%;
+      height: 50px;
       float: left;
     }
 
-    .gauche {
-      padding-left: 5%;
-      padding-top: 5%;
+.container { width: 100%; clear: both; }
+
+    .longue {
+      width: 5%;
+      height: 2080px;
+    }
+    .colonne {
+      float: left;
     }
 
-    .milieu {
-      padding-left: 5%;
-      padding-top: 5%;
-      width: 20%;
-    }
-    .milieu2 {
-      padding-top: 5%;
-      width: 20%;
-    }
-    .droite {
-      padding-left: 5%;
-      padding-top: 5%;
-      width: 20%;
-    }
-
-    .tiers .tiers1 {
-      width: 28.33%;
-    }
-
-    .gauche3 {
-      padding-left: 5%;
-      padding-top: 5%;
-    }
-
-    .milieu3 {
-      padding-left: 10%;
-      padding-top: 11%;
-    }
-
-    .droite3 {
-      padding-left: 10%;
-      padding-top: 10%;
+    .quart {
+      width: 23.75%;
+      height: 500px;
     }
 
     .moitie {
-      width: 45%;
-      padding-left: 5%;
+      width: 47.5%;
+      height: 580px;
+    }
+
+    .tiers {
+      width: 31.66%;
+      height: 500px;
     }
 
     .tiers2 {
-      width: 46.66%;
+      width: 31.66%;
+      height: 500px;
+      
     }
 
-    .droite4{
-      padding-left: 20%;
+    .entier {
+      width: 100%;
+      height: 20px;
+      text-align: right;
     }
 
 h1 {
 	font-size: 4em;
 }
-
-#footer {text-align: right;  width: 100%; position: fixed; bottom: 0;}
 
 .slide1,.slide2,.slide3,.slide4,.slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11, .slide12, .slide13 {
   position: absolute;
@@ -406,3 +403,31 @@ h1 {
   100% { opacity: 0}
 }
 
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        width: 100%;
+    }
+    
+    .longue {
+      height: 0px;
+      background-color: black;
+    } 
+
+    .colonne {
+      float: left;
+      width: 93%;
+      padding-left: 2%,
+    }
+
+}
