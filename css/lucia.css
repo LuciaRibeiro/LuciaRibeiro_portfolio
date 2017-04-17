@@ -413,21 +413,75 @@ h1 {
   text-align: right;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     /* For mobile phones: */
     .container {
         width: 100%;
+        clear: both;
+        float: left;
     }
     
     .longue {
       height: 0px;
-      background-color: black;
     } 
 
     .colonne {
-      float: left;
-      width: 93%;
+      width: 98%;
       padding-left: 2%,
+    }
+
+    .gauche {
+      width: 100%;
+    }
+
+    .milieu {
+      width: 100%;
+    }
+
+    .milieu2 {
+      width: 100%;
+    }
+
+    .droite {
+      width: 100%; 
+    }
+
+    .gauche2 {
+      width: 100%;
+    }
+
+    .droite2 {
+      width: 100%; 
+    }
+
+    .gauche3 {
+      width: 100%;
+    }
+
+    .milieu3 {
+      width: 100%;
+    }
+
+    .droite3 {
+      width: 100%; 
+    }
+
+    .gauche4 {
+      height: 0px;
+    }
+
+    .milieu4 {
+      width: 100%;
+    }
+
+    .droite4 {
+      width: 100%; 
+    }
+
+    .entier {
+      width: 100%;
+      height: 20px;
+      text-align: right;
     }
 
 }
