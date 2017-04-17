@@ -408,6 +408,12 @@ h1 {
 
 @media only screen and (max-width: 800px) {
 
+    .longue {
+      width: auto;
+    float: none;
+    height: 0px;
+    }
+
     .gauche {
       width: auto;
     float: none;
@@ -541,11 +547,21 @@ h1 {
     height: auto;
     background-color: #ff8a23;
     }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
 }
 
 @media only screen and (max-width: 480px) {
 
     #menu {
+      height: auto;
+    }
+
+    img {
+      width: 100%;
       height: auto;
     }
 }
