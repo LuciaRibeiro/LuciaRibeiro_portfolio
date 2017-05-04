@@ -96,6 +96,8 @@ a:hover { color: #00FCDD;}
 
 .container { width: 100%; clear: both; }
 
+    .marge2 { width: 100%; height: 30px; }
+
     .longue {
       width: 5%;
       height: 2080px;
@@ -123,6 +125,16 @@ a:hover { color: #00FCDD;}
       width: 31.66%;
       height: 500px;
       
+    }
+
+    .espace1 {
+      width: 2%;
+      height: 110px;
+    }
+
+    .texte1 {
+      height: 110px;
+      width: 98%;
     }
 
     .entier {
@@ -397,6 +409,71 @@ h1 {
   100% { opacity: 0}
 }
 
+
+@media only screen and (max-width: 1800px) {
+
+    .lucia { 
+    width: 180px;
+    height: 20px;
+    float: left;
+    background-color: pink;
+    }
+
+
+    .insta { 
+      width: 180px;
+      float: left;
+    }
+
+    .longue1 {
+      width: 2%;
+      float: left;
+    }
+
+    .colonne {
+      height: auto;
+    }
+
+    .marge {
+      width: 2%;
+    }
+
+    .premier {
+      width: 45%;
+    }
+
+    .espace3 {
+      width: 8%;
+    }
+
+    .troisieme {
+      width: 45%;
+    }
+
+    .entier {
+      width: 90%;
+      text-align: right;
+      bottom: 0;
+    }
+
+    .archi{
+      padding-left: 2%;
+      padding-right: 2%;
+      height: auto;
+      width: auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 960px) {
+    .espace4 .espace5 {width: 5%; background-color: red;}
+    .lucia {background-color: red;}
+    .colonne {
+      float: left;
+    }
+}
+
 @media only screen and (max-width: 800px) {
 
     .longue {
@@ -536,14 +613,3 @@ h1 {
 
 }
 
-@media only screen and (max-width: 480px) {
-
-    #menu {
-      height: auto;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-}
