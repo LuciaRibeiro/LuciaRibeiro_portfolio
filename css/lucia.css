@@ -75,6 +75,9 @@ a:hover { color: #00FCDD;}
         box-shadow: 1px 1px 30px #00FCDD;
 }
 
+img {
+  max-width: 100%;
+}
 .lucia { 
     width: 10%;
     height: 20px;
@@ -106,9 +109,13 @@ a:hover { color: #00FCDD;}
       float: left;
     }
 
+    .column {
+      float: left;
+    }
+
     .quart {
       width: 23.75%;
-      height: 500px;
+      height: 580px;
     }
 
     .moitie {
@@ -118,18 +125,13 @@ a:hover { color: #00FCDD;}
 
     .tiers {
       width: 31.66%;
-      height: 500px;
+      height: 580px;
     }
 
     .tiers2 {
       width: 31.66%;
-      height: 500px;
+      height: 580px;
       
-    }
-
-    .espace1 {
-      width: 2%;
-      height: 110px;
     }
 
     .texte1 {
@@ -141,6 +143,78 @@ a:hover { color: #00FCDD;}
       width: 100%;
       height: 20px;
       text-align: right;
+    }
+
+    .margea {
+      width: 5%;
+      height: 3280px; 
+      background-color: pink;
+    }
+    .space {
+      width: 2%; 
+      height: 110px;
+    }
+
+    .texte1 { 
+      width: 98%;
+      height: 110px;
+    }
+
+    .space1 {
+      width: 5%; 
+      height: 900px;
+    }
+
+    .texte {
+      height: 900px; 
+      width: 30%;
+    }
+
+    .space2 {
+      width: 15%;
+      height: 900px;
+      background-color: pink;
+    }
+
+    .troisieme {
+      height: 900px;
+      width: 45%;
+      padding-top: 2%;
+    }
+
+    .space3 {
+      width: 22%;
+      height: 650px;
+    }
+
+    .pro1 {
+      height: 650px;
+      width: 73%;
+    }
+
+    .pro2 {
+      height: 650px;
+      width: 95%;
+    }
+
+    .space4 {
+      width: 44%; 
+      height: 650px;
+    }
+
+    .pro3 {
+      height: 650px; 
+      width: 51%;
+    }
+
+    .space5 {
+      width: 22%; 
+      height: 650px;
+    }
+
+    .pro4 {
+      height: 650px; 
+      width: 73%;
     }
 
 h1 {
@@ -416,9 +490,7 @@ h1 {
     width: 180px;
     height: 20px;
     float: left;
-    background-color: pink;
     }
-
 
     .insta { 
       width: 180px;
@@ -428,10 +500,6 @@ h1 {
     .longue1 {
       width: 2%;
       float: left;
-    }
-
-    .colonne {
-      height: auto;
     }
 
     .marge {
@@ -456,22 +524,143 @@ h1 {
       bottom: 0;
     }
 
-    .archi{
-      padding-left: 2%;
-      padding-right: 2%;
-      height: auto;
-      width: auto;
-    }
-
 }
 
-
-@media only screen and (max-width: 960px) {
-    .espace4 .espace5 {width: 5%; background-color: red;}
+@media only screen and (max-width: 1350px) {
+    .espace4 .espace5 {width: 5%}
     .lucia {background-color: red;}
     .colonne {
       float: left;
+      padding: 2%;
+      height: 500px;
     }
+    .longue {
+      height: 2700px;
+    }
+    .gauche4 {
+      width: 1%;
+    }
+    .column {
+      float: left;
+    }
+    .space1{
+      width: 0%;
+    }
+    .space2 {
+      width: 10%;
+      height: 700px;
+    }
+    .troisième {
+      width: 50%;
+      height: 700px;
+          }
+    .texte {
+      width: 30%;
+      height: 700px;
+    }
+    .pro2 {
+      width: 73%;
+      padding-left: 22%;
+    }
+    .space4 {
+      width: 0%;
+    }
+    .pro3 {
+      width: 73%;
+      padding-left: 22%
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .espace4 .espace5 {width: 5%}
+    .lucia {background-color: pink;}
+    .colonne {
+      float: left;
+      padding: 2%;
+      height: 500px;
+    }
+    .longue {
+      height: 2700px;
+    }
+    .gauche4 {
+      width: 1%;
+    }
+    .carte {
+      width: 20%;
+    }
+    .archi {
+      width: 60%;
+    }
+    .eris {
+      padding-left: 10%;
+      padding-top: 15%;
+      height: 200px;
+    }
+    .guide {
+      height: 200px;
+    }
+    .fresh {
+      height: 550px;
+    }
+    .brel {
+      height: 550px;
+    }
+   
+   
+}
+
+@media only screen and (max-width: 960px) {
+    .espace4 .espace5 {width: 5%}
+    .lucia {background-color: red;}
+    .colonne {
+      float: left;
+      height: 500px;
+    }
+    .longue {
+      height: 3200px;
+    }
+    .affiche {
+      width: 40%;
+    }
+    .prog {
+      width: 40%;
+    }
+    .ada {
+      width: 40%;
+    }
+    .carte {
+      width: 40%;
+    }
+    .eris {
+      padding-left: 10%;
+      padding-top: 15%;
+      height: 200px;
+    }
+    .guide {
+      height: 200px;
+    }
+    .fresh {
+      height: 550px;
+    }
+    .brel {
+      height: 550px;
+    }
+    .space3 {
+      width: 0%;
+    }
+    .space4 {
+      width: 0%;
+    }
+    .space5 {
+      width: 0%;
+    }
+    .pro2 {
+      padding-left: 0%;
+    }
+    .pro3 {
+      padding-left: 0%;
+    }
+    
 }
 
 @media only screen and (max-width: 800px) {
@@ -482,7 +671,7 @@ h1 {
     height: 0px;
     }
 
-    .gauche {
+    .affiche {
       width: auto;
     float: none;
     padding: 2%;
@@ -490,7 +679,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .milieu {
+    .prog {
       width: auto;
     float: none;
     padding: 2%;
@@ -498,7 +687,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .milieu2 {
+    .ada {
       width: auto;
     float: none;
     padding: 2%;
@@ -506,7 +695,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .droite {
+    .carte {
       width: auto;
     float: none;
     padding: 2%;
@@ -514,7 +703,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .gauche2 {
+    .archi {
       width: auto;
     float: none;
     padding: 2%;
@@ -522,7 +711,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .droite2 {
+    .fresh {
       width: auto;
     float: none;
     padding: 2%;
@@ -530,7 +719,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .gauche3 {
+    .brel {
       width: auto;
     float: none;
     padding: 2%;
@@ -538,7 +727,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .milieu3 {
+    .guide {
       width: auto;
     float: none;
     padding: 2%;
@@ -546,7 +735,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .droite3 {
+    .eris {
       width: auto;
     float: none;
     padding: 2%;
@@ -560,7 +749,7 @@ h1 {
     height: 0px;
     }
 
-    .milieu4 {
+    .ff {
       width: auto;
     float: none;
     padding: 2%;
@@ -568,7 +757,7 @@ h1 {
     margin-bottom: 2%;
     }
 
-    .droite4 {
+    .gris {
       width: auto;
     float: none;
     padding: 2%;
@@ -606,10 +795,65 @@ h1 {
     }
 
     img {
-      width: 100%;
+      width: 100%; 
       height: auto;
       border: solid 1px #00FCDD;
     }
 
+    .margea {
+      width: 0%;
+    }
+    .space1 {
+      width: 0%;
+    }
+    .space2 {
+      width: 0%;
+    }
+    .texte1 {
+      width: auto;
+      float: none;
+      padding: 2%;
+    }
+    .texte {
+      width: auto;
+      float: none;
+      height: auto;
+      padding-left: 10%;
+      padding-right: 2%;
+      padding-bottom: 2%;
+    }
+    .troisieme {
+      width: auto;
+      float: none;
+      height: auto;
+      padding: 2%;
+    }
+    .pro1 {
+      width: 48%;
+      float: none;
+      height: auto;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-right: 2%;
+      padding-left: 50%;
+    }
+    .pro2 {
+      width: auto;
+      float: none;
+      height: auto;
+      padding: 2%;
+    }
+    .pro3 {
+      width: auto;
+      float: none;
+      height: auto;
+      padding: 2%;
+    }
+    .pro4 {
+      width: auto;
+      float: none;
+      height: auto;
+      padding: 2%;
+    }
 }
 
