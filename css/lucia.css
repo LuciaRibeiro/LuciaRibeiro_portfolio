@@ -57,6 +57,10 @@ h2 a { text-decoration: none;
 
 a:hover { color: #00FCDD;}
 
+h1 {
+  font-size: 4em;
+}
+
 #menu a {
   text-decoration: none;
   color: #000;
@@ -134,7 +138,7 @@ img {
       
     }
 
-    .texte1 {
+    .texte1, .texte1f {
       height: 110px;
       width: 98%;
     }
@@ -148,8 +152,8 @@ img {
     .margea {
       width: 5%;
       height: 3280px; 
-      background-color: pink;
     }
+
     .space {
       width: 2%; 
       height: 110px;
@@ -173,7 +177,6 @@ img {
     .space2 {
       width: 15%;
       height: 900px;
-      background-color: pink;
     }
 
     .troisieme {
@@ -217,13 +220,45 @@ img {
       width: 73%;
     }
 
-h1 {
-	font-size: 4em;
-}
+    .margeb {
+      width: 5%;
+      height: 1490px;
+    }
+    .space1b {
+      width: 5%;
+      height: 990px;
+    }
+    .texteb {
+      width: 30%;
+      height: 990px;
+    }
+    .space2b {
+      width: 15%;
+      height: 990px;
+    }
+    .troisiemeb {
+      height: 550px;
+      width: 45%;
+    }
+    .slider {
+      padding-top: 3%;
+      max-width: 42%;
+    }
+    .b {
+      height: 440px;
+      width: 45%;
+    }
+    .space3b {
+      width: 15%;
+      height: 500px;
+    }
+    .b2 {
+      width: 80%;
+    }
 
 .slide1,.slide2,.slide3,.slide4,.slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11, .slide12, .slide13 {
   position: absolute;
-  width: 20%;
+  width: 42%;
 }
 
 .slide1 {
@@ -483,6 +518,264 @@ h1 {
   100% { opacity: 0}
 }
 
+  .archi1 {
+    height: 800px;
+    width: 100%;
+    margin-top: 3%;
+  }
+  .archi2 {
+    height: 800px;
+    width: 100%;
+  }
+  .archi3 {
+    height: 800px;
+    width: 100%;
+  }
+  .archi4 {
+    height: 800px;
+    width: 100%;
+  }
+  .archi5 {
+    height: 800px;
+    width: 100%;
+  }
+  .archi6 {
+    height: 800px;
+    width: 100%;
+  }
+
+  .spacec {
+    width: 2%;
+    height: 110px;
+  }
+  .texte1c {
+    height: 110px;
+    width: 98%;
+  }
+  .margec {
+    width: 5%;
+    height: 2000px;
+  }
+  .space1c {
+    width: 5%;
+    height: 800px;
+  }
+  .textec {
+    height: 800px;
+    width: 30%;
+  }
+  .typo {
+    width: 150%;
+  }
+  .space2c {
+    width: 15%;
+    height: 800px;
+  }
+  .troisiemec {
+    height: 800px;
+    width: 45%;
+  }
+  .imagec {
+    height: 1200px;
+    width: 30%;
+  }
+  .imagec2 {
+    height: 1200px;
+    width: 63%;
+    padding-left: 2%;
+  }
+
+  .marged {
+    width: 5%;
+    height: 1200px;
+  }
+  .space1d {
+    width: 5%;
+    height: 1200px;
+  }
+  .texted {
+    height: 600px;
+    width: 30%;
+  }
+  .troisiemed {
+    width: 30%; 
+    height: 571.5px; 
+    padding-top: 2%;
+  }
+  .troisiemed2 {
+    width: 30%; 
+    height: 571.5px; 
+    padding-top: 2%;
+  }
+  .imaged {
+    width: 30%; 
+    height: 600px;
+  }
+  .imaged2 {
+    width: 30%;
+    height: 600px;
+  }
+  .imaged3 {
+    width: 30%;
+    height: 600px;
+  }
+
+  .margee {
+    width: 5%;
+    height: 750px;
+  }
+  .spacee {
+    width: 5%;
+    height: 750px;
+  }
+  .textee {
+    height: 750px;
+    width: 30%;
+  }
+  .spacee2 {
+    width: 15%;
+    height: 750px;
+  }
+  .troisiemee {
+    height: 750px;
+    width: 45%;
+    padding-top: 2%;
+  }
+  .imagee, .imagee2, .imagee3, .imagee4, .imagee5, .imagee6, .imagee7, .imagee8{
+    height: 800px;
+    width: 100%;
+  }
+  .imagee9 {
+    height: 800px;
+    width: 90%;
+  }
+  .spacee3 {
+    width: 10%;
+    height: 800px;
+  }
+
+  .margef, .spacef {
+    width: 5%; 
+    height: 1060px;
+  }
+  .textef {
+    height: 1060px; 
+    width: 30%;
+  }
+  .spacef2 {
+    width: 10%; 
+    height: 900px;
+  }
+  .troisiemef {
+    height: 1060px; 
+    width: 50%;
+  }
+  .imagef1, .imagef2, .imagef3, .imagef4, .imagef5, .imagef6 {
+    height: 580px; 
+    width: 95%;
+  }
+
+  .margeg, .spaceg {
+    width: 5%;
+    height: 650px;
+  }
+  .texteg {
+    height: 650px; 
+    width: 30%;
+  }
+  .spaceg2 {
+    width: 10%; 
+    height: 650px;
+  }
+  .troisiemeg {
+    height: 650px; 
+    width: 50%;
+  }
+  .imageg {
+    max-width: 10%; 
+    padding-left: 20%; 
+    padding-top: 20%;
+  }
+
+  .margeh {
+    width: 5%; 
+    height: 4550px;
+  }
+  .spaceh {
+    width: 5%; 
+    height: 650px;
+  }
+  .texteh {
+    height: 650px; 
+    width: 30%;
+  }
+  .spaceh2 {
+    width: 15%;
+    height: 650px;
+  }
+  .troisiemeh {
+    height: 650px; 
+    width: 45%;
+    padding-top: 2%;
+  }
+  .spaceh3, .spaceh4, .spaceh5, .spaceh6, .spaceh7, .spaceh8 {
+    width: 21.5%; 
+    height: 650px;
+  }
+  .imageh1, .imageh2, .imageh3, .imageh4, .imageh5, .imageh6 {
+    height: 650px; 
+    width: 63.5%;
+  }
+
+  .margei {
+    width: 5%;
+    height: 1762px;
+  }
+  .spacei {
+    width: 5%; 
+    height: 862px;
+  }
+  .textei {
+    height: 862px; 
+    width: 30%;
+  }
+  .spacei2 {
+    width: 15%; 
+    height: 862px;
+  }
+  .troisiemei {
+    height: 862px; 
+    width: 45%;
+  }
+  .spacei3 {
+    width: 5%; 
+    height: 900px;
+  }
+  .imagei {
+    width: 90%; 
+    height: 900px;
+  }
+
+ .spacej {
+    width: 5%;
+    height: 650px;
+    background-color: red;
+  }
+  .textej {
+    width: 60%;
+    height: 650px;
+  }
+  .imagej {
+    width: 33%;
+    height: 650px;
+  }
+  .spacej2 {
+    width: 2%;
+    height: 650px;
+    background-color: red;
+  }
+  
+
 
 @media only screen and (max-width: 1800px) {
 
@@ -569,6 +862,80 @@ h1 {
       width: 73%;
       padding-left: 22%
     }
+
+    .imagec2 {
+      width: 63%;
+      padding-left: 2%;
+    }
+
+    .space1b{
+      width: 0%;
+    }
+
+    .space1c{
+      width: 0%;
+    }
+
+    .space1d{
+      width: 0%;
+    }
+    .troisiemed {
+      height: 550px;
+    }
+    .troisiemed2 {
+      padding-left: 2%;
+      height: 550px;
+    }
+    .imaged {
+      height: 550px;
+    }
+    .imaged2 {
+      padding-left: 2%;
+      height: 550px;
+    }
+    .imaged3 {
+      height: 550px;
+    }
+
+    .spacee {
+      width: 0%;
+    }
+
+    .spacef {
+      width: 0%;
+    }
+
+    .spaceg {
+      width: 0%;
+    }
+
+    .spaceh {
+      width: 0%;
+    }
+    .spaceh3, .spaceh4, .spaceh5, .spaceh6, .spaceh7, .spaceh8 {
+    width: 14.5%; 
+    height: 650px;
+    }
+    .imageh1, .imageh2, .imageh3, .imageh4, .imageh5, .imageh6 {
+    height: 650px; 
+    width: 70.5%;
+    }
+
+    .spacei {
+      width: 0%;
+    }
+
+    .spacej {
+    width: 5%;
+    height: 600px;
+    background-color: red;
+    }
+    .textej, .imagej {
+      height: 600px;
+    }
+    h1 {
+      font-size: 3em;
+    }
 }
 
 @media only screen and (max-width: 1030px) {
@@ -605,7 +972,53 @@ h1 {
     .brel {
       height: 550px;
     }
-   
+
+    .troisiemed, .troisiemed2, .imaged, .imaged2, .imaged3{
+      height: 450px;
+    }
+
+    .textee {
+      height: 700px;
+    }
+    .spacee2 {
+      height: 700px;
+    }
+    .troisiemee {
+      width: 40%;
+      height: 700px;
+    }
+    .imagee, .imagee2, .imagee3, .imagee4, .imagee5, .imagee6, .imagee7, .imagee8, {
+      width: 80%;
+      padding: 4%;
+  }
+   .imagee9 {
+    width: 40%;
+    padding: 4%;
+   }
+
+   .spaceh3, .spaceh4, .spaceh5, .spaceh6, .spaceh7, .spaceh8 {
+    width: 0%; 
+    height: 0%;
+    }
+    .imageh1, .imageh2, .imageh3, .imageh4, .imageh5, .imageh6 {
+    height: 650px; 
+    width: 95%;
+    }
+
+    .spacej {
+    height: 400px;
+    background-color: pink;
+    }
+    .spacej2 {
+    height: 400px;
+    background-color: pink;
+    }
+    .textej, .imagej {
+      height: 400px;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
    
 }
 
@@ -660,11 +1073,131 @@ h1 {
     .pro3 {
       padding-left: 0%;
     }
+
+    .space1b {
+      width: 0%;
+    }
+    .troisiemeb {
+      height: 400px;
+    }
+    .space3b {
+      width: 15%;
+      height: 100px;
+    }
+    .b2 {
+      width: 50%;
+      padding-left: 30%;
+    }
+
+    .typo {
+      margin-top: 30%;
+    }
+    .space1c {
+      width: 0%;
+    }
+    .space2c {
+      width: 0%;
+    }
+    .troisiemec {
+      width: 55%;
+      margin-left: 10%;
+    }
+    .imagec {
+      margin-top: 20%
+    }
+    .imagec2 {
+      margin-top: 20%;
+    }
+    .margec {
+      width: 5%;
+      height: 1900px;
+    }
     
+    .troisiemed, .troisiemed2, .imaged, .imaged2, .imaged3{
+      height: 400px;
+    }
+
+    .margee {
+      height: 600px;
+    }
+    .spacee2 {
+      width: 0%;
+    }
+    .troisiemee {
+      width: 43%;
+      height: 600px;
+      margin-left: 5%;
+    }
+    .spacee, .textee,  {
+      height: 600px;
+    }
+    .spacee3 {
+      width: 0%;
+    }
+    .imagee, .imagee2, .imagee3, .imagee4, .imagee5, .imagee6, .imagee7, .imagee8 {
+      width: 85%;
+    height: 500px;
+    margin: 4%;
+    margin-left: 8%;
+  }
+  .imagee9 {
+    width: 43%;
+    height: 500px;
+    margin: 4%;
+    margin-left: 8%;
+  }
+
+  .texte1f {
+    height: 190px;
+  }
+
+  .spaceg2 {
+    width: 0%;
+  }
+  .troisiemeg {
+    padding-left: 2%;
+  }
+
+  .spaceh2 {
+    width: 0%;
+    height: 0%;
+  }
+  .troisiemeh {
+    padding-left: 10%;
+  }
+
+  .spacei2 {
+    width: 0%;
+  }
+  .troisiemei {
+    padding-left: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+  .lucia {background-color: pink;}
+  .spacej {
+    height: 400px;
+    background-color: red;
+    }
+    .spacej2 {
+    height: 400px;
+    background-color: red;
+    }
+    .textej, .imagej {
+      height: 400px;
+    }
+    h1 {
+      font-size: 2em;
+    }
 }
 
 @media only screen and (max-width: 800px) {
 
+    .colonne {
+      padding: 0%;
+    }
     .longue {
       width: auto;
     float: none;
@@ -674,73 +1207,64 @@ h1 {
     .affiche {
       width: auto;
     float: none;
-    padding: 2%;
+    margin: 2%;
     height: auto;
-    margin-bottom: 2%;
     }
 
     .prog {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .ada {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .carte {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .archi {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .fresh {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .brel {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .guide {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .eris {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .gauche4 {
@@ -752,21 +1276,20 @@ h1 {
     .ff {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
-    margin-bottom: 2%;
+    margin: 2%;
     }
 
     .gris {
       width: auto;
     float: none;
-    padding: 2%;
     height: auto;
+    margin: 2%;
     }
 
     .entier {
       width: auto;
-    float: none;
+    float: right;
     padding: 2%;
     height: auto;
     }
@@ -794,12 +1317,15 @@ h1 {
     text-align: center;
     }
 
-    img {
+    .effet {
       width: 100%; 
       height: auto;
       border: solid 1px #00FCDD;
     }
-
+    img {
+      width: 100%;
+      height: auto;
+    }
     .margea {
       width: 0%;
     }
@@ -826,34 +1352,372 @@ h1 {
       width: auto;
       float: none;
       height: auto;
-      padding: 2%;
+      margin: 2%;
     }
     .pro1 {
       width: 48%;
       float: none;
       height: auto;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      padding-right: 2%;
-      padding-left: 50%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-right: 2%;
+      margin-left: 50%;
     }
     .pro2 {
       width: auto;
       float: none;
       height: auto;
-      padding: 2%;
+      margin: 2%;
     }
     .pro3 {
       width: auto;
       float: none;
       height: auto;
-      padding: 2%;
+      margin: 2%;
     }
     .pro4 {
       width: auto;
       float: none;
       height: auto;
+      margin: 2%;
+    }
+
+    .margeb {
+      width: 0%;
+    }
+    .space1b {
+      width: 0%;
+    }
+    .texteb {
+      width: auto;
+      float: none;
+      height: auto;
+      padding-left: 10%;
+      padding-right: 2%;
+      padding-bottom: 2%;
+    }
+    .pins {
+      width: 50%;
+      float: none;
+      height: auto;
+      }
+    .space2b {
+      width: 0%;
+    }
+    .troisiemeb {
+      width: auto;
+      float: none;
+      height: auto;
+      padding-left: 10%;
+      padding-right: 2%;
+      padding-bottom: 2%;
+    }
+    .slider {
+      height: 500px;
+    }
+    .slide1,.slide2,.slide3,.slide4,.slide5, .slide6, .slide7, .slide8, .slide9, .slide10 {
+
+  width: auto;
+  height: auto;
+}
+    
+    .slider2 {
+      height: 500px;
+    }
+    .slide11, .slide12, .slide13 {
+      width: auto;
+  height: auto;
+    }
+    .space3b {
+      width: 0%;
+    }
+    .b {
+      width: auto;
+      float: none;
+      height: auto;
+      padding-left: 10%;
+      padding-right: 2%;
+      padding-bottom: 2%;
+    }
+    .b2 {
+      width: auto;
+      float: none;
+      height: auto;
       padding: 2%;
+    }
+
+    .archi1 {
+      width: auto;
+      height: auto;
+      margin: 2%;
+    }
+    .archi2 {
+      width: auto;
+      height: auto;
+      margin: 2%;
+    }
+    .archi3 {
+      width: auto;
+      height: auto;
+      margin: 2%;
+    }
+    .archi4 {
+      width: auto;
+      height: auto;
+      margin: 2%;
+    }
+    .archi5 {
+      width: auto;
+      height: auto;
+      margin: 2%;
+    }
+    .archi6 {
+      width: auto;
+      height: auto;
+      margin: 2%;
+    }
+   
+   .spacec {
+      width: 0%;
+    }
+  .margec {
+      width: 0%;
+    }
+    .space1c {
+      width: 0%;
+    }
+    .textec {
+      width: auto;
+      float: none;
+      height: auto;
+      padding-left: 10%;
+      padding-right: 2%;
+      padding-bottom: 2%;
+    }
+   
+    .texte1c {
+      width: auto;
+      float: none;
+      padding: 2%;
+    }
+    .typo {
+      width: auto;
+      height: auto;
+      padding: 2%;
+      margin-top: 0;
+    }
+    .troisiemec {
+      width: 96%;
+      height: auto;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding-top: 0;
+    }
+    .imagec {
+      width: 48%;
+      height: auto;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding-top: 0;
+    }
+    .imagec2 {
+      width: 96%;
+      height: auto;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding-top: 0;
+      padding-left: 0;
+    }
+
+    .marged {
+      width: 0%;
+    }
+    .space1d {
+      width: 0%;
+    }
+    .texted {
+      width: auto;
+      float: none;
+      height: auto;
+      padding-left: 10%;
+      padding-right: 2%;
+      padding-bottom: 2%;
+    }
+    .troisiemed {
+      width: 98%;
+      height: auto;
+      margin: 2%;
+    }
+    .troisiemed2 {
+      width: 98%;
+      height: auto;
+      margin: 2%;
+      padding: 0;
+    }
+    .imaged {
+      width: 98%;
+      height: auto;
+      margin: 2%;
+    }
+    .imaged2 {
+      width: 98%;
+      height: auto;
+      margin: 2%;
+      padding: 0;
+    }
+    .imaged3 {
+      width: 98%;
+      height: auto;
+      margin: 2%;
+    }
+
+    .textee{
+      width: auto;
+      float: none;
+      height: auto;
+      margin-left: 10%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+    } 
+    .spacee2, .spacee, .margee, .spacee3 {
+      width: 0%;
+    }
+    .troisiemee {
+      width: 48%;
+      float: none;
+      height: auto;
+      margin: 2%;
+      padding-top: 0%;                      
+    }
+    .imagee, .imagee2, .imagee3, .imagee4, .imagee5, .imagee6, .imagee7, .imagee8 {
+      width: auto;
+      float: none;
+      height: auto;
+      margin: 2%;
+    }
+    .imagee9 {
+      width: 48%;
+      float: none;
+      height: auto;
+      margin: 2%;
+    }
+
+    .margef, .spacef, .spacef2 {
+      height: 0%;
+    }
+    .textef {
+      width: auto;
+      float: none;
+      height: auto;
+      margin-left: 10%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+    } 
+    .troisiemef, .imagef1, .imagef2, .imagef3, .imagef4, .imagef5, .imagef6 {
+      width: auto;
+      float: none;
+      height: auto;
+      margin: 2%;
+    }
+
+    .margeg, .spaceg, .spaceg2 {
+      height: 0%;
+    }
+    .texteg {
+      width: auto;
+      float: none;
+      height: auto;
+      margin-left: 10%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+    }
+    .troisiemeg {
+      width: auto;
+      float: none;
+      height: auto;
+      margin: 2%;
+    }
+    .imageg {
+      padding-left: 0%;
+    }
+
+    .margeh, .spaceh, .spaceh2 {
+      height: 0%;
+    }
+    .texteh {
+      width: auto;
+      float: none;
+      height: auto;
+      margin-left: 10%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+    }
+    .troisiemeh {
+      width: 48%;
+      float: none;
+      height: auto;
+      margin-left: 50%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      padding-left: 0%;
+      padding-top: 0%;
+    }
+    .imageh6 {
+      width: 48%;
+      float: none;
+      height: auto;
+      margin: 2%;
+    }
+    .imageh1, .imageh2, .imageh3, .imageh4, .imageh5 {
+      width: auto;
+      float: none;
+      height: auto;
+      margin: 2%;
+    }
+
+    .margei, .spacei, .spacei2, .spacei3 {
+      height: 0%;
+    }
+    .textei {
+      width: auto;
+      float: none;
+      height: auto;
+      margin-left: 10%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+    }
+    .troisiemei, .imagei {
+      width: auto;
+      float: none;
+      height: auto;
+      margin: 2%;
+      padding-left: 0%;
+    }
+
+    .spacej {
+      width: 0%;
+    height: 0%;
+    }
+    .spacej2 {
+    width: 0%;
+    height: 0%;
+    }
+    .textej {
+      width: auto;
+      float: none;
+      height: auto;
+      margin-left: 10%;
+      margin-right: 2%;
+    }
+    .imagej {
+      width: auto;
+      float: none;
+      height: auto;
+      margin-left: 10%;
+
+    }
+    h1 {
+      font-size: 2.5em;
     }
 }
 
