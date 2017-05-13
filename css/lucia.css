@@ -759,7 +759,6 @@ img {
  .spacej {
     width: 5%;
     height: 650px;
-    background-color: red;
   }
   .textej {
     width: 60%;
@@ -772,7 +771,6 @@ img {
   .spacej2 {
     width: 2%;
     height: 650px;
-    background-color: red;
   }
   
 
@@ -821,7 +819,6 @@ img {
 
 @media only screen and (max-width: 1350px) {
     .espace4 .espace5 {width: 5%}
-    .lucia {background-color: red;}
     .colonne {
       float: left;
       padding: 2%;
@@ -928,7 +925,6 @@ img {
     .spacej {
     width: 5%;
     height: 600px;
-    background-color: red;
     }
     .textej, .imagej {
       height: 600px;
@@ -940,7 +936,6 @@ img {
 
 @media only screen and (max-width: 1030px) {
     .espace4 .espace5 {width: 5%}
-    .lucia {background-color: pink;}
     .colonne {
       float: left;
       padding: 2%;
@@ -1007,11 +1002,9 @@ img {
 
     .spacej {
     height: 400px;
-    background-color: pink;
     }
     .spacej2 {
     height: 400px;
-    background-color: pink;
     }
     .textej, .imagej {
       height: 400px;
@@ -1024,7 +1017,6 @@ img {
 
 @media only screen and (max-width: 960px) {
     .espace4 .espace5 {width: 5%}
-    .lucia {background-color: red;}
     .colonne {
       float: left;
       height: 500px;
@@ -1176,14 +1168,11 @@ img {
 }
 
 @media only screen and (max-width: 850px) {
-  .lucia {background-color: pink;}
   .spacej {
     height: 400px;
-    background-color: red;
     }
     .spacej2 {
     height: 400px;
-    background-color: red;
     }
     .textej, .imagej {
       height: 400px;
@@ -1426,7 +1415,7 @@ img {
     }
     .slide11, .slide12, .slide13 {
       width: auto;
-  height: auto;
+      height: auto;
     }
     .space3b {
       width: 0%;
