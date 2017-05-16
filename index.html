@@ -1,4 +1,7 @@
 <!doctype html>
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://luciaribeiro.ch/$1 [R=301,L]
 <html>
 	<head>
 		<meta charset="utf-8">
